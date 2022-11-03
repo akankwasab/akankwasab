@@ -15,7 +15,6 @@ public class Calculator {
 		    System.out.println("Choose an operator from : +, -, *, or /");
 		    operator = input.next().charAt(0);
 
-		    // ask users to enter numbers
 		    System.out.println("Enter first number");
 		    num1 = input.nextDouble();
 
@@ -24,25 +23,21 @@ public class Calculator {
 
 		    switch (operator) {
 
-		      // performs addition between numbers
 		      case '+':
 		        result = num1 + num2;
 		        System.out.println(num1 + " + " + num2 + " = " + result);
 		        break;
 
-		      // performs subtraction between numbers
 		      case '-':
 		        result = num1 - num2;
 		        System.out.println(num1 + " - " + num2 + " = " + result);
 		        break;
 
-		      // performs multiplication between numbers
 		      case '*':
 		        result = num1 * num2;
 		        System.out.println(num1 + " * " + num2 + " = " + result);
 		        break;
 
-		      // performs division between numbers
 		      case '/':
 		        result = num1 / num2;
 		        System.out.println(num1 + " / " + num2 + " = " + result);
